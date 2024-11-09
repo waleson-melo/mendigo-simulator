@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://q8us7xohbf7c"]
+
+[ext_resource type="PackedScene" uid="uid://c3oyyisp43rft" path="res://scenes/objects/player/player.tscn" id="1_rh0m0"]
+[ext_resource type="PackedScene" uid="uid://dywfxgauo3n43" path="res://scenes/objects/food/beaf.tscn" id="2_oroj2"]
+
+[node name="Teste" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_rh0m0")]
+position = Vector2(161, 88)
+
+[node name="Beaf" parent="." instance=ExtResource("2_oroj2")]
+position = Vector2(236, 87)
